@@ -1,0 +1,6 @@
+{
+        "environment":"uat",
+	"home":"/home/SOADevAdmin/logs_uat",	
+	"port":"3004",
+	"countrycode":"MX"
+}

@@ -1,0 +1,6 @@
+{
+        "environment":"prod",
+	"home":"/home/SOADevAdmin/logs_prod",	
+	"port":"3007",
+	"countrycode":"MX"
+}

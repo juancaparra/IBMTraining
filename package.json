@@ -1,0 +1,29 @@
+{
+  "name": "ibit-logging-server",
+  "version": "1.0.0",
+  "description": "The logging server for IBIT SOA",
+  "main": "Server.js",
+  "scripts": {
+    "start-dev": "NODE_ENV=dev forever start Server.js",
+    "stop-dev": "NODE_ENV=dev  forever stop Server.js",
+    "start-uat":"NODE_ENV=uat forever start Server.js",
+    "stop-uat": "NODE_ENV=uat  forever stop Server.js",
+    "start-shk": "NODE_ENV=shk  forever start Server.js",
+    "stop-shk": "NODE_ENV=shk  forever stop Server.js",
+    "start-nft":"NODE_ENV=nft forever start Server.js",
+    "stop-nft": "NODE_ENV=nft  forever stop Server.js",
+    "start-prod":"NODE_ENV=prod forever start Server.js",
+    "stop-prod": "NODE_ENV=prod  forever stop Server.js"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Andy Zhang <azhang@nextpathway.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "mkdirp": "^0.5.1",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}

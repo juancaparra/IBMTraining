@@ -1,0 +1,6 @@
+{
+    "environment":"dev",
+	"home":"/home/logs_dev",	
+	"port":"3003",
+	"countrycode":"CO"
+}
